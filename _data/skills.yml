@@ -1,12 +1,20 @@
 # Skills
-# Organizational leadership
-- skill: Organizational leadership
-  description: I have several years of experience leading organziations from community groups to business departments. From public speaking, to mentoring, to coordination of people and events, I can lead in any context.
+# Nanofabrication
+- skill: Nanofabrication
+  description: I have several years of experience in the cleanroom with a strong expertise in most of the cleanroom facilties such as Ebeam lithography, Photolithography, RIE-ICP etching, Ebeam evaporation, Chemical-mechanical polishing, Wire-bonding, etc. I have successfully fabricated the integrated photonic devices with high Q factor in Si, SiNx, GaP platforms. 
 
-# Communications strategy
-- skill: Communications strategy
-  description: Content and marketing strategy,
+# Numerical Simulation
+- skill: Designing and modeling photonics
+  description: I have developed strong expertise in the multiphysics simulation including COMSOL (FEM),ANSYS (FEM), Lumerical (FDTD). 
+
+# Experience with silicon photonic test flows
+- skill: Experience with silicon photonic test flows
+  description: I have built the fiber-array setup for the fast chateraterization of the Si photonic devices with the ability to test 16 ports of the integrated photonic chips.
 
 # Digital content development and creation
-- skill: Digital content development and creation
-  description: Copy writing, graphic design, web design, front-end web development, print design
+- skill: Python tools for operating multi-instrument and multi-computer laboratory experiments
+  description: I have worked with Qudi and Pi3Diamond (Pi3) to perform the measurement such as scanning NV probe, confocal mapping of spin qubits.
+  
+# Digital content development and creation
+- skill: Software
+  description: I am familiar with the softwares such as Python, Labview, Matlab, Mathematica, etc.
