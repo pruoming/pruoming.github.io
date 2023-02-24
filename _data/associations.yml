@@ -2,11 +2,11 @@
 # comment out the urls if you do not wish to display them
 #  year: 2017 &mdash; 2022
 
-- organization: PETA
-  role: Volunteer
-  year: 2001 &mdash; 2010
-  url: https://www.peta.org/
-  summary: Organized fund drives and participated in fundraising events for the benefit of PETA's local Springfield operations.
+#- organization: PETA
+#  role: Volunteer
+#  year: 2001 &mdash; 2010
+#  url: https://www.peta.org/
+#  summary: Organized fund drives and participated in fundraising events for the benefit of PETA's local Springfield operations.
   
 - organization: Tunable phononic coupling in excitonic quantum emitters
   role: Nature Nano, accepted   
