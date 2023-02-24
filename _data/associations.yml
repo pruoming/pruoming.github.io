@@ -1,15 +1,8 @@
 # Associations
 # comment out the urls if you do not wish to display them
 
-- organization: PETA
-  role: Volunteer
-  year: 2001 &mdash; 2010
-  url: https://www.peta.org/
-  summary: Organized fund drives and participated in fundraising events for the benefit of PETA's local Springfield operations.
-
-
-- organization: Yale Amnesty International
-  role: Communications coordinator
-  year: 2002 &mdash; 2004
-  url: http://campuspress.yale.edu/amnesty/
-  summary: During my junion and senior years at Yale, I was actively involved in Yale Amnesty International where I helped facilitate our student organization communications through website maintenance, writing for our campus publication, and graphic design of related materials.
+- organization: OPTICA
+  role: Student Member
+  year: 2017 &mdash; 2022
+  url: https://www.optica.org/en-us/home/
+  summary: Optica (formerly OSA), Advancing Optics and Photonics Worldwide, is the society dedicated to promoting the generation, application, archiving and dissemination of knowledge in the field. Founded in 1916, it is the leading organization for scientists, engineers, business professionals, students and others interested in the science of light. Optica’s renowned publications, meetings, online resources and in-person activities fuel discoveries, shape real-life applications and accelerate scientific, technical and educational achievement.
