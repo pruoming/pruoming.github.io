@@ -8,13 +8,6 @@
   # url: "#"
   description: We design the compact diamond OMC cavity to enhance the phonon/photon interaction with the Si vacancy. Owing to the strong confinement of the phononic mode, a strong coupling between phonon and spins is expected. Based on this device scheme, the phonon can be used as the channel to entangle multiple spins regardless of the spin-spin spacing and inhomogeneity. Those results pave the route to further scale up the quantum computing based on solid-state spin systems.
 
-# Springfield Community Outreach Group
-- project: Springfield Community Outreach Group
-  role: Co-Founder & Organizer
-  duration: 2007 &mdash; Present
-  # url: "#"
-  description: SCOG is a local monthly meetup in Springfield where we share opportunities to volunteer in the community and organize support for families and neighborhoods in need of assistance that the community can provide.
-
 # jazznotes.io
 - project: Engineering of the tunable quantum phonon states in strained 2D quantum dots
   #role: Founder & Primary Developer
@@ -23,7 +16,7 @@
   description: We engineer the local strain to achieve the site-control of the quantum emitter in bilayer WSe2. Owing to the perpendicular dipole moment of the localized interlayer exciton, the emission energy is highly tunable and quantum phonon cascades of quantum emitters are investigated. Also, we are working on the integration of the photonic crystal waveguide to study the collective behaviors of the multiple single-photon emitters.
   
 # jazznotes.io
-- project: SAW transport of 2D exciton
+- project: Transport of 2D exciton with acoustic wave
   #role: Founder & Primary Developer
   duration: 2019 &mdash; 2021
   # url: "#"
