@@ -1,8 +1,8 @@
 # Associations
 # comment out the urls if you do not wish to display them
-
-- organization: OPTICA
-  role: Student Member
-  year: 2017 &mdash; 2022
-  url: https://www.optica.org/en-us/home/
-  summary: Optica (formerly OSA), Advancing Optics and Photonics Worldwide, is the society dedicated to promoting the generation, application, archiving and dissemination of knowledge in the field. Founded in 1916, it is the leading organization for scientists, engineers, business professionals, students and others interested in the science of light. Optica’s renowned publications, meetings, online resources and in-person activities fuel discoveries, shape real-life applications and accelerate scientific, technical and educational achievement.
+#  year: 2017 &mdash; 2022
+- organization: Tunable phononic coupling in excitonic quantum emitters
+  role: Adina Ripin, Ruoming Peng<sup>#</sup>, Xiaowei Zhang, Srivatsa Chakravarthi, Minhao He, Xiaodong Xu, Kai-Mei Fu, Ting Cao, Mo Li<sup>#</sup>
+  year: Nature Nanotechnology 2022
+  url: https://assets.researchsquare.com/files/rs-1832450/v1_covered.pdf?c=1657915709
+  summary: Optica 
