@@ -8,11 +8,11 @@
   summary: 1
 
 
-- organization: Long range transport of 2D excitons with acoustic waves
-  role: Ruoming Peng, Adina Ripin, Yusen Ye, Jiayi Zhu, Changming Wu, Seokhyeong Lee, Huan Li, Takashi Taniguchi, Kenji Watanabe, Ting Cao, Xiaodong Xu, Mo Li. Nature communications     
-  year: 2022
-  url: https://www.nature.com/articles/s41467-022-29042-9
-  summary: 2
+#- organization: Long range transport of 2D excitons with acoustic waves
+#  role: Ruoming Peng, Adina Ripin, Yusen Ye, Jiayi Zhu, Changming Wu, Seokhyeong Lee, Huan Li, Takashi Taniguchi, Kenji Watanabe, Ting Cao, Xiaodong Xu, Mo Li. Nature communications     
+#  year: 2022
+#  url: https://www.nature.com/articles/s41467-022-29042-9
+#  summary: 2
   
   - organization: Programmable black phosphorus image sensor for broadband optoelectronic edge computing
   role: Seokhyeong Lee<sup>*</sup>, Ruoming Peng<sup>*#</sup>, Changming Wu, Mo Li<sup>#</sup>. Nature communications  
