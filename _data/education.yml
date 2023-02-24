@@ -1,13 +1,23 @@
 # Degree
-- degree: Bachelor of Arts, Human Rights
-  uni: Yale University
-  year: 2004 &mdash; 2008
-  awards:
-    - award: Summa Cumme Laude graduate
-  summary: If you had any meaningful roles at college, feel free to write about them here
+- degree: Bachelor of Science
+  uni: University of Electronic Science and Technology of China
+  year: 20011 &mdash; 2015
+  awards: 
+  summary:
 
-- degree: High School Diploma
-  uni: Springfield High School
-  year: 2004
-  award: Most likely to succeed
-  summary: You can choose to have either a single or multiple awards
+# Degree
+- degree: MS
+  uni: University of Minnesota
+  year: 2015 &mdash; 2018
+  awards:
+  summary: Advisor: Mo Li (UMN ECE)
+  
+  
+# Degree
+- degree: PHD
+  uni: University of Washington
+  year: 2018 &mdash; 2022
+  awards:
+    - award: Clairmont L. Egtvedt Endowed Engineering Fellowship, 2021
+    - award: MRS Travel Grant, 2022
+  summary: Advisor: Mo Li (UW ECE/Physics)
