@@ -2,11 +2,11 @@
 # comment out the urls if you do not wish to display them
 #  year: 2017 &mdash; 2022
 
-#- organization: PETA
-#  role: Volunteer
-#  year: 2001 &mdash; 2010
-#  url: https://www.peta.org/
-#  summary: Organized fund drives and participated in fundraising events for the benefit of PETA's local Springfield operations.
+- organization: PETA
+  role: Volunteer
+  year: 2001 &mdash; 2010
+  url: https://www.peta.org/
+  summary: Organized fund drives and participated in fundraising events for the benefit of PETA's local Springfield operations.
   
 - organization: Tunable phononic coupling in excitonic quantum emitters
   role: Nature Nanotechnology, accepted   
@@ -21,8 +21,8 @@
 #  url: https://www.nature.com/articles/s41467-022-29042-9
 #  summary: <b>Ruoming Peng</b>, Adina Ripin, Yusen Ye, Jiayi Zhu, Changming Wu, Seokhyeong Lee, Huan Li, Takashi Taniguchi, Kenji Watanabe, Ting Cao, Xiaodong Xu, Mo Li.
   
-  - organization: Programmable black phosphorus image sensor for broadband optoelectronic edge computing
-  role: Nature communications  
-  year: 2022
-  url: https://www.nature.com/articles/s41467-022-29171-1
-  summary: Seokhyeong Lee<sup>*</sup>, <b>Ruoming Peng</b><sup>*#</sup>, Changming Wu, Mo Li<sup>#</sup>.
+#  - organization: Programmable black phosphorus image sensor for broadband optoelectronic edge computing
+#  role: Nature communications  
+#  year: 2022
+#  url: https://www.nature.com/articles/s41467-022-29171-1
+#  summary: Seokhyeong Lee<sup>*</sup>, <b>Ruoming Peng</b><sup>*#</sup>, Changming Wu, Mo Li<sup>#</sup>.
