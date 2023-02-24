@@ -1,16 +1,4 @@
 # Degree
-- degree: BS in Microelectronics
-  uni: University of Electronic Science and Technology of China
-  year: 2011 &mdash; 2015
-  #awards: 1 
-  summary: Advisor - Prof. Zhiming Wang 
-
-- degree: MS in Electrical Engineering
-  uni: University of Minnesota
-  year: 2015 &mdash; 2018
-  #awards: 1
-  summary: Advisor - Prof. Mo Li (UMN ECE)
-
 - degree: PHD in Electrical Engineering
   uni: University of Washington
   year: 2018 &mdash; 2022
@@ -18,3 +6,15 @@
     - award: Clairmont L. Egtvedt Endowed Engineering Fellowship, 2021
     - award: MRS Travel Grant, 2022
   summary: Advisor - Prof. Mo Li (UW ECE/Physics)
+
+- degree: MS in Electrical Engineering
+  uni: University of Minnesota
+  year: 2015 &mdash; 2018
+  #awards: 1
+  summary: Advisor - Prof. Mo Li (UMN ECE)
+
+- degree: BS in Microelectronics
+  uni: University of Electronic Science and Technology of China
+  year: 2011 &mdash; 2015
+  #awards: 1 
+  summary: Advisor - Prof. Zhiming Wang 
