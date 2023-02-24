@@ -1,17 +1,17 @@
 # Degree
-- degree: Bachelor of Science
+- degree: BS in Microelectronics
   uni: University of Electronic Science and Technology of China
-  year: 20011 &mdash; 2015
+  year: 2011 &mdash; 2015
   #awards: 1 
   #summary: 1
 
-- degree: MS
+- degree: MS in Electrical Engineering
   uni: University of Minnesota
   year: 2015 &mdash; 2018
   #awards: 1
   summary: Advisor - Mo Li (UMN ECE)
 
-- degree: PHD
+- degree: PHD in Electrical Engineering
   uni: University of Washington
   year: 2018 &mdash; 2022
   awards:
