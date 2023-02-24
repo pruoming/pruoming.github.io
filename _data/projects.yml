@@ -2,11 +2,11 @@
 # uncomment the urls if you wish to display them, and add your own URL
 
 # jazznotes.io
-- project: jazznotes.io
-  role: Founder & Primary Developer
-  duration: 2012 &mdash; Present
+- project: A quantum phonon bus for diluted spins interaction
+  #role: Founder & Primary Developer
+  #duration: 2012 &mdash; Present
   # url: "#"
-  description: Jazz Notes is an open source node/ember app that helps you keep track of your music compositions and new ideas.
+  description: We design the compact diamond OMC cavity to enhance the phonon/photon interaction with the Si vacancy. Owing to the strong confinement of the phononic mode, a strong coupling between phonon and spins is expected. Based on this device scheme, the phonon can be used as the channel to entangle multiple spins regardless of the spin-spin spacing and inhomogeneity. Those results pave the route to further scale up the quantum computing based on solid-state spin systems.
 
 # Springfield Community Outreach Group
 - project: Springfield Community Outreach Group
