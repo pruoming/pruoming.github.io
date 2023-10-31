@@ -13,7 +13,7 @@
   #role: Founder & Primary Developer
   duration: 2022 &mdash; 2023
   # url: "#"
-  description: We design the compact diamond OMC cavity to enhance the phonon/photon interaction with the Si vacancy. Owing to the strong confinement of the phononic mode, a strong coupling between phonon and spins is expected. Based on this device scheme, the phonon can be used as the channel to entangle multiple spins regardless of the spin-spin spacing and inhomogeneity. Those results pave the route to further scale up the quantum computing based on solid-state spin systems.
+  description: We design the compact SiC OMC cavity to enhance the phonon/photon interaction with the divacancy. Owing to the strong confinement of the phononic mode, a strong coupling between phonon and spins is expected. Based on this device scheme, the phonon can be used as the channel to entangle multiple spins regardless of the spin-spin spacing and inhomogeneity. Those results pave the route to further scale up the quantum computing based on solid-state spin systems.
 
 # jazznotes.io
 - project: Engineering of the tunable quantum phonon states in strained 2D quantum dots
