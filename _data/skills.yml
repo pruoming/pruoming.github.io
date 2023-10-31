@@ -12,8 +12,8 @@
   description: I have built the fiber-array setup for the fast chateraterization of the Si photonic chips with the ability to test 16 ports of the integrated photonic chips (eg. Setup for the optical computing, integrated optical isolator, modulator, detector).
 
 # Digital content development and creation
-- skill: Python tools for operating multi-instrument and multi-computer laboratory experiments
-  description: I have worked with Qudi and Pi3Diamond (Pi3) to perform the measurement such as scanning NV probe, confocal mapping of spin qubits.
+- skill: Python and labview tools for operating multi-instrument and multi-computer laboratory experiments
+  description: I have worked with Labview and python tools such as Qudi and Pi3Diamond (Pi3) to perform the measurement such as characterizing integrated photonics, optoelectronic edge computing, scanning NV probe, and confocal mapping of spin qubits.
   
 # Digital content development and creation
 - skill: Softwares
