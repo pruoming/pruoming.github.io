@@ -2,7 +2,14 @@
 # uncomment the urls if you wish to display them, and add your own URL
 
 # jazznotes.io
-- project: Scanning NV probe for condensed matter physics
+- project: Scanning NV probe for 2D superconductor
+  #role: Founder & Primary Developer
+  duration: 2023 &mdash; present
+  # url: "#"
+  description: TBD.
+  
+# jazznotes.io
+- project: Scanning NV probe for twisted antiferromagnets
   #role: Founder & Primary Developer
   duration: 2023 &mdash; present
   # url: "#"
