@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 340" role="img" aria-labelledby="title desc">
+  <title id="title">Scattered diamond crystal sketches</title>
+  <desc id="desc">Original light-grey line drawings of varied diamonds and crystals scattered loosely around an open center.</desc>
+
+  <defs>
+    <symbol id="cut-diamond" viewBox="0 0 140 105">
+      <path d="M6 36 31 7l73-2 30 31-65 65Z"/>
+      <path d="M6 36h128M31 7l17 29L69 6l23 30 12-31M48 36l21 65 23-65"/>
+    </symbol>
+    <symbol id="prism" viewBox="0 0 90 175">
+      <path d="M45 3 79 39 69 144 45 171 18 143 10 41Z"/>
+      <path d="m10 41 35 25 34-27M45 3v63M18 143l27-77 24 78M28 54l4 99M63 54l-6 101"/>
+    </symbol>
+    <symbol id="rough-stone" viewBox="0 0 115 100">
+      <path d="m8 31 28-24 44 7 27 31-15 38-43 13L13 72Z"/>
+      <path d="m36 7 11 38 33-31M8 31l39 14 2 51M13 72l34-27 45 38M47 45h60M80 14 68 46l24 37"/>
+    </symbol>
+    <symbol id="octahedron" viewBox="0 0 90 120">
+      <path d="M45 3 83 50 48 116 9 55Z"/>
+      <path d="M45 3 48 116M9 55l74-5M45 3 29 52l19 61M45 3l-18 52 21 61"/>
+    </symbol>
+    <symbol id="crystal-cluster" viewBox="0 0 190 155">
+      <path d="m6 147 15-66 26-25 21 29-5 62Z"/>
+      <path d="m21 81 26 28 21-24M47 56v53M6 147l41-38 16 38"/>
+      <path d="m48 147 20-104 29-37 27 40-10 101Z"/>
+      <path d="m68 43 29 38 27-35M97 6v75M48 147l49-66 17 66M68 43l10 72 19-34 17 66"/>
+      <path d="m104 147 27-88 25-27 24 32-8 83Z"/>
+      <path d="m131 59 25 30 24-25M156 32v57M104 147l52-58 16 58M131 59l9 52 16-22 16 58"/>
+      <path d="M2 151h181" opacity="0.45"/>
+    </symbol>
+  </defs>
+
+  <g fill="none" stroke="#aeb4b2" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" opacity="0.48">
+    <!-- Randomized left-side arrangement kept within the outer edge -->
+    <use href="#cut-diamond" x="0" y="25" width="160" height="116" transform="rotate(-4 80 83)"/>
+    <use href="#prism" x="184" y="10" width="44" height="112" transform="rotate(4 206 66)"/>
+    <use href="#rough-stone" x="260" y="30" width="96" height="76" transform="rotate(-5 308 68)"/>
+    <use href="#octahedron" x="390" y="18" width="58" height="86" transform="rotate(6 419 61)"/>
+    <use href="#cut-diamond" x="480" y="37" width="135" height="97" transform="rotate(-3 548 86)" opacity="0.72"/>
+    <use href="#rough-stone" x="20" y="220" width="70" height="58" transform="rotate(6 55 249)" opacity="0.7"/>
+    <use href="#crystal-cluster" x="120" y="170" width="190" height="154" transform="rotate(-3 215 247)"/>
+    <use href="#prism" x="340" y="200" width="42" height="100" transform="rotate(5 361 250)"/>
+    <use href="#octahedron" x="415" y="185" width="88" height="130" transform="rotate(-4 459 250)"/>
+    <use href="#cut-diamond" x="540" y="230" width="105" height="75" transform="rotate(4 593 268)" opacity="0.68"/>
+
+    <!-- Independently randomized right-side arrangement kept within the outer edge -->
+    <use href="#rough-stone" x="985" y="35" width="90" height="74" transform="rotate(-5 1030 72)"/>
+    <use href="#cut-diamond" x="1105" y="20" width="170" height="120" transform="rotate(4 1190 80)"/>
+    <use href="#prism" x="1300" y="20" width="40" height="100" transform="rotate(-4 1320 70)"/>
+    <use href="#octahedron" x="1370" y="10" width="100" height="145" transform="rotate(6 1420 83)"/>
+    <use href="#rough-stone" x="1515" y="50" width="60" height="50" transform="rotate(-4 1545 75)" opacity="0.7"/>
+    <use href="#crystal-cluster" x="940" y="185" width="140" height="115" transform="rotate(3 1010 243)"/>
+    <use href="#octahedron" x="1110" y="220" width="55" height="82" transform="rotate(-5 1138 261)"/>
+    <use href="#prism" x="1200" y="165" width="76" height="170" transform="rotate(4 1238 250)"/>
+    <use href="#cut-diamond" x="1310" y="235" width="90" height="65" transform="rotate(-4 1355 268)" opacity="0.68"/>
+    <use href="#rough-stone" x="1425" y="180" width="150" height="125" transform="rotate(5 1500 243)"/>
+  </g>
+</svg>
