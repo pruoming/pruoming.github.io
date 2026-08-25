@@ -3,7 +3,7 @@ const header = `
     <div class="container nav-shell">
       <a class="brand" href="index.html" aria-label="Laboratory home">
         <img class="brand-mark" src="https://cdn.websitepublisher.ai/custom/wid26375/images/hku-crest.png" alt="" width="46" height="52" style="width:46px;height:52px;object-fit:contain;background:transparent">
-        <span class="brand-copy"><strong>Q-SPEC Laboratory</strong><span>HKU · Mechanical Engineering</span></span>
+        <span class="brand-copy"><strong>Q-SPEC Lab</strong><span>HKU · Mechanical Engineering</span></span>
       </a>
       <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="site-navigation"><span></span></button>
       <nav class="nav-links" id="site-navigation" aria-label="Primary navigation">
@@ -21,11 +21,10 @@ const footer = `
   <footer class="site-footer">
     <div class="container footer-inner">
       <div>
-        <div class="footer-title">Q-SPEC Laboratory</div>
+        <div class="footer-title">Q-SPEC Lab</div>
         <p class="footer-meta">Laboratory of Quantum Sensing and Spectroscopy<br>Department of Mechanical Engineering · The University of Hong Kong<br>7/F, Haking Wong Building · Pokfulam Road · Hong Kong</p>
       </div>
       <ul class="footer-links">
-        <li><a href="mailto:you@hku.hk">Email</a></li>
         <li><a href="https://scholar.google.com.hk/citations?user=id7EmzYAAAAJ&amp;hl=zh-CN">Google Scholar</a></li>
         <li><a href="https://mech.hku.hk/">HKU ME</a></li>
       </ul>

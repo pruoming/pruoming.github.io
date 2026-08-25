@@ -287,6 +287,13 @@ main p {
   letter-spacing: -0.01em;
 }
 .research-copy p { color: #45534e; }
+.research-copy .research-references {
+  margin-top: 15px;
+  color: var(--muted);
+  font-size: 0.9rem;
+  text-align: left;
+}
+.research-references a { font-weight: 600; }
 
 .people-content { padding: 44px 0 0; }
 
