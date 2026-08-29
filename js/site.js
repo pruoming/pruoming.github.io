@@ -54,3 +54,78 @@ toggle?.addEventListener("click", () => {
 document.querySelectorAll("[data-year]").forEach((node) => {
   node.textContent = String(new Date().getFullYear());
 });
+
+const heroCarousel = document.querySelector("[data-hero-carousel]");
+if (heroCarousel) {
+  const slides = Array.from(heroCarousel.querySelectorAll(".hero-slide"));
+  const dots = Array.from(heroCarousel.querySelectorAll("[data-carousel-dot]"));
+  const previousButton = heroCarousel.querySelector("[data-carousel-previous]");
+  const nextButton = heroCarousel.querySelector("[data-carousel-next]");
+  const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
+  let activeSlide = 0;
+  let pointerIsOverCarousel = false;
+  let rotationTimer;
+
+  const showSlide = (index) => {
+    const normalizedIndex = (index + slides.length) % slides.length;
+    const incomingSlide = slides[normalizedIndex];
+    const slideIsChanging = normalizedIndex !== activeSlide;
+
+    slides.forEach((slide) => slide.classList.remove("is-transitioning"));
+    if (slideIsChanging && !reduceMotion.matches) {
+      void incomingSlide.offsetWidth;
+    }
+
+    slides.forEach((slide, slideIndex) => {
+      const isActive = slideIndex === normalizedIndex;
+      slide.classList.toggle("is-active", isActive);
+      slide.setAttribute("aria-hidden", String(!isActive));
+    });
+    if (slideIsChanging && !reduceMotion.matches) {
+      incomingSlide.classList.add("is-transitioning");
+    }
+    dots.forEach((dot, dotIndex) => {
+      const isActive = dotIndex === normalizedIndex;
+      dot.classList.toggle("is-active", isActive);
+      if (isActive) dot.setAttribute("aria-current", "true");
+      else dot.removeAttribute("aria-current");
+    });
+    activeSlide = normalizedIndex;
+  };
+
+  const stopRotation = () => {
+    window.clearInterval(rotationTimer);
+    rotationTimer = undefined;
+  };
+
+  const startRotation = () => {
+    stopRotation();
+    if (slides.length < 2 || reduceMotion.matches || document.hidden || pointerIsOverCarousel) return;
+    rotationTimer = window.setInterval(() => {
+      showSlide((activeSlide + 1) % slides.length);
+    }, 6000);
+  };
+
+  const manuallyShowSlide = (index) => {
+    showSlide(index);
+    startRotation();
+  };
+
+  previousButton?.addEventListener("click", () => manuallyShowSlide(activeSlide - 1));
+  nextButton?.addEventListener("click", () => manuallyShowSlide(activeSlide + 1));
+  dots.forEach((dot, index) => {
+    dot.addEventListener("click", () => manuallyShowSlide(index));
+  });
+
+  heroCarousel.addEventListener("mouseenter", () => {
+    pointerIsOverCarousel = true;
+    stopRotation();
+  });
+  heroCarousel.addEventListener("mouseleave", () => {
+    pointerIsOverCarousel = false;
+    startRotation();
+  });
+  document.addEventListener("visibilitychange", startRotation);
+  reduceMotion.addEventListener?.("change", startRotation);
+  startRotation();
+}
