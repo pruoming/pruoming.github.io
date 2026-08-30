@@ -176,11 +176,18 @@ main p {
 
 .home-intro .container { position: relative; z-index: 1; }
 
+.quote-author {
+  margin-top: 8px;
+  color: var(--muted);
+  font-size: 0.82rem;
+  letter-spacing: 0.04em;
+}
+
 .lab-full-name {
   margin-top: 18px;
   color: var(--green);
   font-family: "Sora", sans-serif;
-  font-size: 1.05rem;
+  font-size: 1.1rem;
   font-weight: 600;
 }
 
@@ -226,7 +233,7 @@ main p {
 }
 
 .hero-slide.is-transitioning {
-  animation: hero-fade-in 900ms ease-in-out;
+  animation: hero-fade-in 1000ms ease-in-out;
 }
 
 @keyframes hero-fade-in {

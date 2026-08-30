@@ -103,7 +103,7 @@ if (heroCarousel) {
     if (slides.length < 2 || reduceMotion.matches || document.hidden || pointerIsOverCarousel) return;
     rotationTimer = window.setInterval(() => {
       showSlide((activeSlide + 1) % slides.length);
-    }, 6000);
+    }, 10000);
   };
 
   const manuallyShowSlide = (index) => {
