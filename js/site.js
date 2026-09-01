@@ -65,14 +65,35 @@ if (heroCarousel) {
   let activeSlide = 0;
   let pointerIsOverCarousel = false;
   let rotationTimer;
+  let firstSlideReady = false;
+  let pendingSlideIndex = null;
 
   const showSlide = (index) => {
     const normalizedIndex = (index + slides.length) % slides.length;
     const incomingSlide = slides[normalizedIndex];
+    const outgoingSlide = slides[activeSlide];
     const slideIsChanging = normalizedIndex !== activeSlide;
 
-    slides.forEach((slide) => slide.classList.remove("is-transitioning"));
+    if (slideIsChanging && (!incomingSlide.complete || incomingSlide.naturalWidth === 0)) {
+      incomingSlide.loading = "eager";
+      if (!incomingSlide.complete && pendingSlideIndex !== normalizedIndex) {
+        pendingSlideIndex = normalizedIndex;
+        incomingSlide.addEventListener("load", () => {
+          if (pendingSlideIndex !== normalizedIndex) return;
+          pendingSlideIndex = null;
+          showSlide(normalizedIndex);
+        }, { once: true });
+        incomingSlide.addEventListener("error", () => {
+          if (pendingSlideIndex === normalizedIndex) pendingSlideIndex = null;
+        }, { once: true });
+      }
+      return;
+    }
+
+    if (pendingSlideIndex === normalizedIndex) pendingSlideIndex = null;
+    slides.forEach((slide) => slide.classList.remove("is-transitioning", "is-outgoing"));
     if (slideIsChanging && !reduceMotion.matches) {
+      outgoingSlide.classList.add("is-outgoing");
       void incomingSlide.offsetWidth;
     }
 
@@ -83,6 +104,9 @@ if (heroCarousel) {
     });
     if (slideIsChanging && !reduceMotion.matches) {
       incomingSlide.classList.add("is-transitioning");
+      incomingSlide.addEventListener("animationend", () => {
+        outgoingSlide.classList.remove("is-outgoing");
+      }, { once: true });
     }
     dots.forEach((dot, dotIndex) => {
       const isActive = dotIndex === normalizedIndex;
@@ -100,7 +124,7 @@ if (heroCarousel) {
 
   const startRotation = () => {
     stopRotation();
-    if (slides.length < 2 || reduceMotion.matches || document.hidden || pointerIsOverCarousel) return;
+    if (!firstSlideReady || slides.length < 2 || reduceMotion.matches || document.hidden || pointerIsOverCarousel) return;
     rotationTimer = window.setInterval(() => {
       showSlide((activeSlide + 1) % slides.length);
     }, 10000);
@@ -127,5 +151,18 @@ if (heroCarousel) {
   });
   document.addEventListener("visibilitychange", startRotation);
   reduceMotion.addEventListener?.("change", startRotation);
-  startRotation();
+
+  const firstSlide = slides[0];
+  const beginRotation = () => {
+    firstSlideReady = true;
+    showSlide(0);
+    startRotation();
+  };
+
+  if (!firstSlide || firstSlide.complete) {
+    beginRotation();
+  } else {
+    firstSlide.addEventListener("load", beginRotation, { once: true });
+    firstSlide.addEventListener("error", beginRotation, { once: true });
+  }
 }

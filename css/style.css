@@ -225,14 +225,24 @@ main p {
 
 .hero-slide {
   z-index: 0;
-  opacity: 1;
+  visibility: hidden;
+  opacity: 0;
 }
 
 .hero-slide.is-active {
   z-index: 1;
+  visibility: visible;
+  opacity: 1;
+}
+
+.hero-slide.is-outgoing {
+  z-index: 1;
+  visibility: visible;
+  opacity: 1;
 }
 
 .hero-slide.is-transitioning {
+  z-index: 2;
   animation: hero-fade-in 1000ms ease-in-out;
 }
 
@@ -244,7 +254,7 @@ main p {
 .hero-arrow {
   position: absolute;
   top: 50%;
-  z-index: 2;
+  z-index: 3;
   display: grid;
   width: 48px;
   height: 48px;
