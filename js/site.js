@@ -2,7 +2,7 @@ const header = `
   <header class="site-header">
     <div class="container nav-shell">
       <a class="brand" href="index.html" aria-label="Laboratory home">
-        <img class="brand-mark" src="https://cdn.websitepublisher.ai/custom/wid26375/images/hku-crest.png" alt="" width="46" height="52" style="width:46px;height:52px;object-fit:contain;background:transparent">
+        <img class="brand-mark" src="images/hku-crest.png" alt="" width="46" height="52" style="width:46px;height:52px;object-fit:contain;background:transparent">
         <span class="brand-copy"><strong>Q-SPEC Lab</strong><span>HKU · Mechanical Engineering</span></span>
       </a>
       <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="site-navigation"><span></span></button>
